@@ -1,2 +1,1 @@
-# Js_project
-shows all my existing projects
+This site contains all my projects
