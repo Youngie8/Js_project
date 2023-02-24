@@ -31,6 +31,11 @@ ul{
     padding: 0;
     list-style: none;
 }
+.card{
+    border: 0.1rem var(--clr-one) solid;
+    border-radius: 1rem;
+    opacity: 1;
+}
 .caption{
     color: var(--clr-one);
     font-size: 1.5rem;
@@ -87,13 +92,17 @@ ul{
 }
 .project-container{
     box-sizing: border-box;
-    margin: 0rem 5rem;
-    display: grid;
-    grid-template-columns: 3fr;
+    display: inline-grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin: 1.5rem;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
 }
 .project-img {
-    height: 15rem;
-    width: 15rem;
+    width: 17.5rem;
+    height: 17.5rem;    
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 .side-bar {
     position: fixed;
